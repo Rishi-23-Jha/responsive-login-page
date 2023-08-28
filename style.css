@@ -1,0 +1,32 @@
+body {
+    background-image: url(Images/bg1.svg);
+}
+
+.left {
+    background-color: #F4F4F4;
+    padding: 3rem;
+}
+
+.right {
+    background-color: white;
+    padding: 3rem;
+}
+
+.font {
+    font-family: "Poppins",sans-serif;
+}
+
+
+@media only screen and (max-width: 960px) {
+    body {
+     
+      background-image: none;
+      background-color: #ebc4c3 !important;
+    }
+
+    .right {
+        
+        padding: 3rem;
+        margin: 1.5rem;
+    }
+  }
